@@ -34,6 +34,7 @@ public class Knapsack
                     j=i;//Getting the index value/item number
                 }
             }
+
             if(array[0][j]>m)//If weight of the item is more than the capacity
             {
                 System.out.println("Quantity of item number: "+ (j+1) + " added is " +m);//How much ever capacity is left all r added

@@ -34,7 +34,9 @@ public class Diji {
             dist[i] = adj[src - 1][i];//Assigning all the distance of edges from source to distance array.
             visited[i] = false;
         }
+
         visited[src - 1] = true;//Source is visited
+
         for (int i = 1; i < n; i++)//Actual calculation of the shortest path.
         {
             min_dist = Integer.MAX_VALUE;
