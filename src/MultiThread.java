@@ -10,7 +10,8 @@ class First extends Thread{
             s.run();
             Third t = new Third(a);
             t.run();
-        }catch (Exception e){
+        }
+        catch(RuntimeException e){
             System.out.println(e.getMessage());
         }
     }

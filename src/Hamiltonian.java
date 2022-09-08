@@ -55,7 +55,7 @@ class Hamiltonian {
             if (graph[soln[k - 1]][soln[k]] != 0) {
                 int j;
                 // Check if the vertex is not repeated
-                for (j = 1; j < k; j++) {                   
+                for (j = 1; j < k; j++) {
                     if (soln[j] == soln[k]) {
                         break;
                     }
